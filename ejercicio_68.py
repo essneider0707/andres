@@ -5,7 +5,7 @@ while True:
         if n2 != 0:
             print(n1/n2)
             break
-        else:
-            print("“Madre mía, Willy, no puedes dividir por cero” ")
+    except ZeroDivisionError:
+        print("“Madre mía, Willy, no puedes dividir por cero”")
     except:
         print("“Madre mía, Willy , ingresa un numero joder!!!!")
