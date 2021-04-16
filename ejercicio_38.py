@@ -5,5 +5,5 @@ if n1 < n2 < n3 :
     print("se estan incrementando")
 elif  n1 > n2 > n3:
     print("se estan disminuyendo")
-else:
+else :
     print("ni se incrementan ni se disminuyen")

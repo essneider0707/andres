@@ -1,5 +1,5 @@
-from tkinter import *
-ventana = Tk()
-ventana.title("imagen")
-ventana.iconbitmap(r"C:\Users\andres essneider\Desktop\iconos+\python.ico")
-ventana.mainloop()
+import cv2 
+imagen =cv2.imread("imagen.png")
+cv2.imshow('imagen',imagen)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
